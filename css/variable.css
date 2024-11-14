@@ -1,0 +1,14 @@
+:root {
+    /* Colors */
+    --main-color: #2F4F4F;
+    --accent-color: #B22222;
+    --white-color: #FAF9F6;
+
+
+
+    /* Spacing */
+    --small-spacing: 24px;
+    --medium-spacing: 32px;
+    --big-spacing: 40px;
+    --huge-spacing: 48px;
+}

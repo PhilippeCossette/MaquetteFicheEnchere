@@ -1,0 +1,29 @@
+.product-catalog {
+  margin: var(--huge-spacing);
+}
+
+.product-catalog-grid {
+  --_gap: 30px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--_gap);
+}
+
+.product-catalog-filter,
+.product-catalog-filter-right {
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 10px;
+}
+
+.product-catalog-filter {
+  justify-content: space-between;
+
+  margin-bottom: 15px;
+}
+
+.product-catalog-filter-right {
+  gap: 30px;
+}

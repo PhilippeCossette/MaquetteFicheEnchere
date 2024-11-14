@@ -1,0 +1,67 @@
+.card-product-block {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-product-block h2, .card-product-block h3 {
+    font-family: "Inter", sans-serif;
+}
+
+.card-product-block h2 {
+    font-size: 28px;
+}
+
+.card-product-block h3 {
+    color: var(--accent-color);
+    font-size: 30px;
+}
+
+.card-product-block .status {
+    color: rgba(0, 0, 0, 0.604);
+}
+
+.card-product-block-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-product-block-content, .card-product-block-button   {
+    padding: 15px;
+}
+
+.card-product-block-button {
+    display: flex;
+}
+
+.card-product-block-button button {
+    flex-grow: 1;
+}
+
+.card-product-block-button .save-icon {
+    max-width: 40px;
+
+    transition: all 0.1s linear;
+}
+.card-product-block-button .save-icon:focus,
+.card-product-block-button .save-icon:hover {
+    transform: scale(1.2);
+}
+
+.card-product-block-content-title span {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;   
+
+    height: max-content;
+}
+
+.card-product-block .small  {
+        margin-top: -10px;
+}
+
+.product-image {
+    object-fit: cover;
+    height: 300px;
+}

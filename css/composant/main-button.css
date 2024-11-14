@@ -1,0 +1,26 @@
+.main-button {
+  --_transition-duration: 0.25s;
+
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: white;
+  background-color: var(--accent-color);
+  padding: 4px;
+  padding-inline: 20px;
+  border-radius: 3px;
+  text-transform: uppercase;
+
+  transition: all var(--_transition-duration) linear;
+}
+
+.main-button:focus,
+.main-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: color-mix(in srgb, var(--accent-color) 80%, white 15%);
+  transition: all var(--_transition-duration) linear;
+}
+
+.main-button:active {
+  box-shadow: none;
+  background-color: color-mix(in srgb, var(--accent-color) 80%, black 15%);
+}
